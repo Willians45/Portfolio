@@ -1,8 +1,10 @@
 @media (max-width: 767px){
     .bar-selector{
         gap: 20px;
-        width: 300px;
         font-size: 12px;
+    }
+    .linkedin{
+        display: none;
     }
     .titulo-inicio{
         margin-top: 30px;
@@ -17,6 +19,14 @@
     .descripcion-perfil{
         font-size: 14px;
         text-align: center;
+    }
+    .div-botones-inicio{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .boton-github{
+        margin-top: 0px;
     }
 
     .titulo-trabajos{
